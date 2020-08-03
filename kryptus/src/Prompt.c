@@ -61,6 +61,11 @@ int main(int argc, char *argv[]) {
 			printf("%d\n", result);
 		}
 
+		if (strncmp(input, "sort\n", 5) == 0) {
+			sort();
+			list();
+		}
+
 		if (strncmp(input, "exit\n", 5) == 0) {
 			printf("Leaving. Good bye.\n");
 			break;

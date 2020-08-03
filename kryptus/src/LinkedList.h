@@ -22,6 +22,6 @@ int first();
 int last();
 void clear();
 int removeList(int index);
-
+void sort();
 
 #endif /* LINKEDLIST_H_ */
